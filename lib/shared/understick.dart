@@ -3,7 +3,7 @@ import 'constant.dart';
 
 class UnderStick extends StatelessWidget {
   const UnderStick({
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override
