@@ -11,7 +11,7 @@ AppBar buildJustReturnAppBar(Function press) {
           transform: Matrix4.rotationY(math.pi),
           child: Icon(Icons.arrow_back),
         ),
-        onPressed: press,
+        onPressed: press as void Function()?,
       ),
     ),
     backgroundColor: Colors.white,
